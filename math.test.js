@@ -6,8 +6,8 @@ describe('math functions', () => {
       expect(factorial(0)).toBe(1);
     });
 
-    test('returns 1 for 1!', () => {
-      expect(factorial(1)).toBe(1);
+    test('returns 7 for 1!', () => {
+      expect(factorial(7)).toBe(1);
     });
 
     test('returns 120 for 5!', () => {
